@@ -1,0 +1,16 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply bg-[#4F1486] text-white px-3 py-2 rounded-md text-sm text-white;
+    }
+}  
+
+.complex-gradient {
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: radial-gradient(83% 86% at 100% 38%, #F8F2E6 24%, #073AFF00 100%);
+}  
